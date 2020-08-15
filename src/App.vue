@@ -1,15 +1,15 @@
 <template>
   <div class="app">
-    <Resizable/>
+    <HelloWorld/>
   </div>
 </template>
 
 <script>
-import Resizable from  './components/Resizable'
+import HelloWorld from  './components/HelloWorld.vue'
 export default {
   name: "App",
   components: {
-  Resizable
+  HelloWorld
   }
 };
 </script>
